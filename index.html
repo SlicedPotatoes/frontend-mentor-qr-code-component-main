@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+      body {
+        background-color: #d4e0ee;
+        font-family: "Outfit", sans-serif;
+        font-size: 11px;
+        text-align: center;
+      }
+      .qr-code-card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: white;
+        max-width: 300px;
+        min-width: 250px;
+      }
+      .qr-code-card img {
+        width: 100%;
+        border-radius: 1rem;
+      }
+      .bold {
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qr-code-card">
+      <img src="images/image-qr-code.png" alt="qr-code" />
+      <p class="bold">
+        Improve your front-end<br />
+        skills by building projects
+      </p>
+      <p>
+        Scan the QR code to visit Frontend<br />
+        Mentor and take your coding skills to<br />
+        the next level
+      </p>
+    </div>
+    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/SlicedPotatoes">Kevin Masmejean</a>.</div>
+  </body>
+</html>
